@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESTAURENT</title>
+    <style>
+        body{
+            font-family: latha;
+            color: darkorange;
+            background-image:url(https://www.teahub.io/photos/full/19-191863_2048x1352-amazing-food-desktop-wallpaper-full-size-restaurant.jpg);
+            background-size: cover;
+        }
+        .box{
+            width: 900px;
+            float: right;
+            border: 1px solid black;
+            position:sticky;
+        }
+        .box ul li{
+            width: 120px;
+            float: left;
+            margin: 10px auto;
+            text-align: center;
+            font-size: x-large;
+        }
+        .box ul li a{
+            text-decoration: none;
+            color:black;
+        }
+        .box ul li:hover{background-color: cadetblue;}
+        .box ul li a:hover{color: brown;}
+        .wd{
+            width: 300px;
+            height: 540px;
+            background-color: black;
+            opacity: 55px;
+        }
+        .wd h2{
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 100px;
+            color: antiquewhite;
+        }
+        .h4{
+            text-align: justify;
+            color: bisque;
+            font-weight: normal;
+        }
+        .wd h2{
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: normal;
+            margin: 40px auto;
+            color: antiquewhite;
+        }
+        .opt form , input[type="button"]{
+            background-color: black;
+            color: antiquewhite;
+            padding: 10px;
+            margin: 14px auto;
+            padding-left: 50px;
+            padding-right: 50px;
+            text-align: center;
+
+        }
+        .form, input[type="button"]:hover{background-color: green;}
+    </style>
+</head>
+<body>
+    <div class="box">
+        <ul type="none">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="online order.html">Online Order</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="wd">
+        <h2>WELCOME</h2>
+        <h4>“Pull up a chair. Take a taste. Come join us. Life is so endlessly delicious.”</h4>
+        <h2>Reservation</h2>
+        <div class="opt">
+            <form action="" method="post">
+                <input type="button" value="Start Now">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
